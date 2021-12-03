@@ -1,5 +1,5 @@
 """
-WSGI config for fast_api_demo_v3 project.
+WSGI config for fast_api_demo_v2 project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -12,7 +12,7 @@ import os
 from django.core.wsgi import get_wsgi_application
 from fastapi import FastAPI
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'fast_api_demo_v3.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'fast_api_demo_v2.settings')
 
 application = get_wsgi_application()
 
