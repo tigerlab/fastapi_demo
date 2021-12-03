@@ -8,7 +8,7 @@
 - #### Install Requirements:
     ```pip install -r requirements.txt```
 
-- #### Generate static files for uvicorn (you may need whitenoise):
+- #### Generate static files for uvicorn:
 
     ```python manage.py collectstatic --noinput```
 
