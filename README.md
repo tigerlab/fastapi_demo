@@ -3,7 +3,7 @@
 #### The project shows an integration of FastAPI into an existing Django Project
 
 
-## Running 
+## Running:
 
 - #### Install Requirements:
     ```pip install -r requirements.txt```
@@ -22,6 +22,7 @@
 
 
 ## Servers:
+
 - FastAPI’s OpenAPI documentation will be at http://127.0.0.1:8000/docs/ 
 
-- Django’s admin at http://127.0.0.1:8001/admin/.
+- Django’s admin at http://127.0.0.1:8001/admin/
