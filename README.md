@@ -14,9 +14,10 @@
 
 - #### Start FastAPI server by:
 
-    ```uvicorn fastapi_demo.wsgi:fastapp --reload``` 
+    ```uvicorn fast_api_demo_v3.wsgi:fastapp --reload``` 
 
 - #### Start Django server by: 
+    ```python manage.py migrate```
 
     ```python manage.py runserver 8001```
 
